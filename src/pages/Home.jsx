@@ -4,6 +4,7 @@ import MainInformation from '../components/MainInformation'
 import About from '../components/About'
 import ScholarshipInformation from '../components/ScholarshipInformation'
 import Footer from '../components/Footer'
+import Criteria from '../components/Criteria'
 
 const Home = () => {
     return (
@@ -23,6 +24,7 @@ const Home = () => {
                 <MainInformation />
                 <About />
                 <ScholarshipInformation />
+                <Criteria />
                 <Footer />
             </div>
         </div>

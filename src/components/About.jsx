@@ -1,28 +1,22 @@
 import React from 'react'
 import { Divider } from 'rsuite'
 import GovandBoy from '../assets/govandboy.jpg'
+import GovandKids from '../assets/govandkids.jpg'
 
 const About = () => {
     return (
-        <div>
+        <div className='mt-20'>
             <div>
-                <Divider className='font-bold'>ABOUT</Divider>
+                <Divider className='text-5xl font-bold'>About the Program</Divider>
             </div>
-            <div>
+            <div className='mt-20'>
                 <div className='lg:flex justify-between gap-20 items-center m-10'>
-                    <div className='lg:w-3/5'>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo in sapiente ex nam eius nulla delectus dicta ducimus porro eum. Reprehenderit, neque expedita placeat ex possimus deserunt harum adipisci modi!</p>
+                    <div className='flex justify-center mt-8'>
+                        <img width={800} h src={GovandKids} alt="Image" />
                     </div>
-                    <div className='flex justify-center'>
-                        <img className='lg:w-96 w-72' src={GovandBoy} alt="Image" />
-                    </div>
-                </div>
-                <div className='lg:flex flex-row-reverse justify-between gap-20 items-center m-10'>
-                    <div className='lg:w-3/5'>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo in sapiente ex nam eius nulla delectus dicta ducimus porro eum. Reprehenderit, neque expedita placeat ex possimus deserunt harum adipisci modi!</p>
-                    </div>
-                    <div className='flex justify-center'>
-                        <img className='lg:w-96 w-72' src={GovandBoy} alt="Image" />
+                    <div className='lg:w-1/2 leading-7 text-lg'>
+                        <p>His Excellency, Prince Dapo Abiodun CON the Executive Governor of Ogun State decided to initiate a special Scholarship Programme, in memory of his late son, Gbemiga Abiodun, for “indigent” learners of Public Primary and Secondary Schools, Technical College and Tertiary Institutions (as well as Special Needs Learners) within Ikenne, Remo North, and Sagamu Local Government Areas, with a view to providing support to selected learners who are from the aforementioned local government areas of Ogun State.</p>
+                        <button>Apply Now</button>
                     </div>
                 </div>
             </div>
