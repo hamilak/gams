@@ -18,13 +18,13 @@ const Home = () => {
         <div className='m-2'>
             <nav className='flex justify-center items-center'>
                 <ul className='flex items-center gap-10 cursor-pointer'>
-                    <li onClick={() => handleScrollToSection('home')} className='hover:text-orange-500'>Home</li>
-                    <li onClick={() => handleScrollToSection('about')} className='hover:text-orange-500'>About</li>
+                    <li onClick={() => handleScrollToSection('home')} className='font-bold hover:text-orange-500'>Home</li>
+                    <li onClick={() => handleScrollToSection('about')} className='font-bold hover:text-orange-500'>About</li>
                     <div>
-                        <img src={Logo} alt="GAMS" width={100} height={100} />
+                        <img src={Logo} alt="GAMS" width={80} height={80} />
                     </div>
-                    <li onClick={() => handleScrollToSection('contact')} className='hover:text-orange-500'>Contact</li>
-                    <li onClick={() => handleScrollToSection('scholarship-information')} className='hover:text-orange-500'>Apply</li>
+                    <li onClick={() => handleScrollToSection('contact')} className='font-bold hover:text-orange-500'>Contact</li>
+                    <li onClick={() => handleScrollToSection('scholarship-information')} className='font-bold hover:text-orange-500'>Apply</li>
                 </ul>
             </nav>
             <div>

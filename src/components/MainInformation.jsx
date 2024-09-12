@@ -26,7 +26,7 @@ const MainInformation = () => {
                     <p className="text-white mt-4">An educational support scheme by Prince Dapo Abiodun for indigent students in selected local government areas in Ogun State.</p>
                     <div className='flex justify-center gap-10 mt-6'>
                         <button onClick={handleLearnMoreClick} className='bg-black p-3 text-white rounded-md font-bold'>Learn More</button>
-                        <button className='bg-green-700 p-3 text-white rounded-md font-bold'>Apply Now</button>
+                        <button className='bg-green-700 p-3 text-white rounded-md font-bold'>Apply Now!</button>
                     </div>
                     <div className=' mt-4'>
                         <p className='text-red-500 font-bold'>Deadline for application: October 7, 2024</p>
