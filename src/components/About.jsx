@@ -19,8 +19,8 @@ const About = () => {
                     </div>
                     <div className='w-full lg:w-1/2 leading-7'>
                         <p className='text-base md:text-lg mt-4'>His Excellency, Prince Dapo Abiodun CON the Executive Governor of Ogun State decided to initiate a special Scholarship Programme, in memory of his late son, Gbemiga Abiodun, for “indigent” learners of Public Primary and Secondary Schools, Technical College and Tertiary Institutions (as well as Special Needs Learners) within Ikenne, Remo North, and Sagamu Local Government Areas, with a view to providing support to selected learners who are from the aforementioned local government areas of Ogun State.</p>
-                        <div className='flex justify-center'>
-                            <button onClick={handleApply} className='font-bold px-4 py-2 rounded-md hover:bg-green-900 bg-green-700 text-white'>Apply Now!</button>
+                        <div className='flex justify-center mt-4'>
+                        <button onClick={handleApply} className='font-bold px-6 py-4 rounded-md hover:bg-green-900 bg-green-700 text-white text-lg'>Apply Now!</button>
                         </div>
                         
                     </div>
