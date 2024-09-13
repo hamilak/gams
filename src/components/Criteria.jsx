@@ -7,9 +7,9 @@ const Criteria = () => {
     }
 
     return (
-        <div className='m-10'>
+        <div className='my-20'>
             <Divider className='font-bold text-3xl md:text-5xl'>Eligibility Criteria</Divider>
-            <div className='mt-16'>
+            <div className='m-10'>
                 <p className='text-center text-base md:text-lg'>To be eligible for this scholarship, applicants must meet the following criteria:</p>
                 <div>
                     <ul className='list-disc list-inside p-4 space-y-3'>
