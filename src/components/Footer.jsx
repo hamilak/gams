@@ -2,6 +2,9 @@ import React from 'react'
 import Logo from '../assets/Logo.png'
 
 const Footer = () => {
+    const handleApply = () => {
+        window.location.href = import.meta.env.VITE_APP_URL
+    }
     return (
         <div className='flex gap-10 h-30 bg-blue-900 p-10'>
             <div>
@@ -13,7 +16,7 @@ const Footer = () => {
             </div>
             <div>
                 <ul className='text-white space-y-4'>
-                    <li className='hover:text-orange-500 cursor-pointer'>Apply</li>
+                    <li onClick={handleApply} className='hover:text-orange-500 cursor-pointer'>Apply</li>
                     <li className='hover:text-orange-500 cursor-pointer'>About</li>
                     <li className='hover:text-orange-500 cursor-pointer'>Contact</li>
                 </ul>

@@ -3,29 +3,39 @@ import BackgroundImage from '../assets/AnimatedShape.svg'
 import { Divider } from 'rsuite'
 
 const ScholarshipInformation = () => {
+    const handleApply = () => {
+        window.location.href = import.meta.env.VITE_APP_URL
+    }
+
     return (
         <div className='my-20'>
-            <Divider className='font-bold text-5xl'>Application Information</Divider>
+            <Divider className='font-bold text-3xl md:text-5xl'>Application Information</Divider>
             <div className='mt-20'>
-                <div className='md:flex justify-between items-center m-10'>
-                    <div className='w-4/5'>
-                        <p className='text-lg'>The main objective of the scholarship program is to provide succor/support to few “indigent” students within these three (3) local government areas with a view to reducing out-of-school phenomenon, improving retention, and strengthening other educational outcomes. This will eventually enhance human capital development and fast-track the economic transformation of Remo land, in particular, and Ogun State in general. </p>
-                        <div className='flex justify-center items-center'>
+                <div className='lg:flex justify-between items-center m-10'>
+                    <div className='w-full lg:w-4/5'>
+                        <p className='text-base md:text-lg'>The main objective of the scholarship program is to provide succor/support to few “indigent” students within these three (3) local government areas with a view to reducing out-of-school phenomenon, improving retention, and strengthening other educational outcomes. This will eventually enhance human capital development and fast-track the economic transformation of Remo land, in particular, and Ogun State in general. </p>
+                        <div>
+                            <div className='flex justify-center items-center'>
                             <img width="100" height="100" src="https://img.icons8.com/clouds/100/important-time.png" alt="important-time" />
                             <p className='text-lg text-red-600 font-bold'>Deadline: October 7, 2024</p>
 
                         </div>
                         <div className='flex justify-center items-center'>
-                            <img width="100" height="100" src="https://img.icons8.com/bubbles/100/ok.png" alt="ok" />
-                            <p className='font-bold text-lg'>All students can apply</p>
+                            <img width="100" height="100" src="https://img.icons8.com/clouds/100/checked--v1.png" alt="checked--v1" />
+                            <p className='font-bold text-lg text-green-700'>All students from the listed local governments can apply</p>
                         </div>
-                        <div className='flex justify-center mt-4'>
-                            <button className='font-bold px-6 py-4 rounded-md bg-green-700 text-white text-lg'>Apply Now!</button>
+                        <div className='flex justify-center items-center'>
+                        <img width="100" height="100" src="https://img.icons8.com/clouds/100/precious--month.png" alt="precious--month"/>
+                            <p className='font-bold text-lg text-orange-700'>Beneficiaries must be between age 6 and 25</p>
+                        </div>
+                        <div className='flex justify-center mt-4 mb-8'>
+                            <button onClick={handleApply} className='font-bold px-6 py-4 rounded-md hover:bg-green-900 bg-green-700 text-white text-lg'>Apply Now!</button>
+                        </div>
                         </div>
                     </div>
                     <div>
                     </div>
-                    <div className='flex items-center text-center w-3/5 min-h-96 p-6 justify-center bg-sky-800 rounded-md m-2
+                    <div className='flex items-center text-center w-full lg:w-3/5 min-h-96 p-6 justify-center bg-sky-800 rounded-md m-2
                     '>
                         <div className='leading-7'>
                             <h6 className='text-white text-left'>Mode of application:</h6>
