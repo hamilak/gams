@@ -11,46 +11,48 @@ const ScholarshipInformation = () => {
         <div className='my-20'>
             <Divider className='font-bold text-3xl md:text-5xl'>Application Information</Divider>
             <div className='mt-20'>
-                <div className='lg:flex justify-between items-center m-10'>
+                <div className='lg:flex justify-between m-10'>
                     <div className='w-full lg:w-4/5'>
                         <p className='text-base md:text-lg'>The main objective of the scholarship program is to provide succor/support to few “indigent” students within these three (3) local government areas with a view to reducing out-of-school phenomenon, improving retention, and strengthening other educational outcomes. This will eventually enhance human capital development and fast-track the economic transformation of Remo land, in particular, and Ogun State in general. </p>
                         <div>
-                            <div className='flex justify-center items-center'>
-                            <img width="100" height="100" src="https://img.icons8.com/clouds/100/important-time.png" alt="important-time" />
-                            <p className='text-lg text-red-600 font-bold'>Deadline: October 7, 2024</p>
+                            <div>
+                                <div className='flex items-center'>
+                                    <img width="100" height="100" src="https://img.icons8.com/clouds/100/important-time.png" alt="important-time" />
+                                    <p className='text-lg text-red-600 font-bold'>Deadline: October 7, 2024</p>
+                                </div>
+                                <div className='flex items-center'>
+                                    <img width="100" height="100" src="https://img.icons8.com/clouds/100/checked--v1.png" alt="checked--v1" />
+                                    <p className='font-bold text-lg text-green-700'>All students from the listed local governments can apply</p>
+                                </div>
+                                <div className='flex items-center'>
+                                    <img width="100" height="100" src="https://img.icons8.com/clouds/100/precious--month.png" alt="precious--month" />
+                                    <p className='font-bold text-lg text-orange-700'>Beneficiaries must be between age 6 and 25</p>
+                                </div>
+                                <div className='flex justify-center mt-4 mb-8'>
+                                    <button onClick={handleApply} className='font-bold px-6 py-4 rounded-md hover:bg-green-900 bg-green-700 text-white text-lg'>Apply Now!</button>
+                                </div>
+                            </div>
 
-                        </div>
-                        <div className='flex justify-center items-center'>
-                            <img width="100" height="100" src="https://img.icons8.com/clouds/100/checked--v1.png" alt="checked--v1" />
-                            <p className='font-bold text-lg text-green-700'>All students from the listed local governments can apply</p>
-                        </div>
-                        <div className='flex justify-center items-center'>
-                        <img width="100" height="100" src="https://img.icons8.com/clouds/100/precious--month.png" alt="precious--month"/>
-                            <p className='font-bold text-lg text-orange-700'>Beneficiaries must be between age 6 and 25</p>
-                        </div>
-                        <div className='flex justify-center mt-4 mb-8'>
-                            <button onClick={handleApply} className='font-bold px-6 py-4 rounded-md hover:bg-green-900 bg-green-700 text-white text-lg'>Apply Now!</button>
-                        </div>
                         </div>
                     </div>
                     <div>
                     </div>
-                    <div className='flex items-center text-center w-full lg:w-3/5 min-h-96 p-6 justify-center bg-sky-800 rounded-md m-2
+                    <div className='flex text-center w-full lg:w-3/5 min-h-96 p-6 justify-center bg-sky-800 rounded-md m-2
                     '>
                         <div className='leading-7'>
-                            <h6 className='text-white text-left'>Mode of application:</h6>
+                            <h6 className='text-white text-lg text-center'>Mode of application</h6>
                             <ul className='text-white list-decimal list-inside text-left'>
-                                <li>
+                                <li className='text-base md:text-lg'>
                                     Would-be beneficiaries for Primary, Secondary and Technical Colleges would be determined in collaboration with the State Ministry of Education Science and Technology using the Cumulative Promotion Examination Result obtainable from the OGSERA Platform
                                 </li>
-                                <li>
+                                <li className='text-base md:text-lg'>
                                     Beneficiaries for Tertiary Education level would be required to first complete an Online Application Form downloadable through a designated online portal.
                                 </li>
-                                <li>Application Forms for Primary, Secondary and Technical College must be endorsed by Parents/Guardian or School Head teacher/Principal for Public
+                                <li className='text-base md:text-lg'>Application Forms for Primary, Secondary and Technical College must be endorsed by Parents/Guardian or School Head teacher/Principal for Public
                                 </li>
-                                <li>Application for Tertiary level applicants must be submitted with evidence of Local Government Origin, JAMB Admission Details.
+                                <li className='text-base md:text-lg'>Application for Tertiary level applicants must be submitted with evidence of Local Government Origin, JAMB Admission Details.
                                 </li>
-                                <li>The applications are then collated for review after the set deadline.
+                                <li className='text-base md:text-lg'>The applications are then collated for review after the set deadline.
                                 </li>
                             </ul>
                         </div>
