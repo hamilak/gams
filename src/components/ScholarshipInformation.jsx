@@ -13,7 +13,7 @@ const ScholarshipInformation = () => {
             <div className='mt-20'>
                 <div className='lg:flex justify-between m-10'>
                     <div className='w-full lg:w-4/5'>
-                        <p className='text-base md:text-lg'>The main objective of the scholarship program is to provide succor/support to few “indigent” students within these three (3) local government areas with a view to reducing out-of-school phenomenon, improving retention, and strengthening other educational outcomes. This will eventually enhance human capital development and fast-track the economic transformation of Remo land, in particular, and Ogun State in general. </p>
+                        <p className='text-base md:text-lg'>The main objective of the scholarship program is to provide succor/support to some students within these three (3) local government areas with a view to reducing out-of-school phenomenon, improving retention, and strengthening other educational outcomes. This will eventually enhance human capital development and fast-track the economic transformation of Remo land, in particular, and Ogun State in general. </p>
                         <div>
                             <div>
                                 <div className='flex items-center'>
