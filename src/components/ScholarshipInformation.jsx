@@ -1,6 +1,7 @@
 import React from 'react'
 import BackgroundImage from '../assets/AnimatedShape.svg'
 import { Divider } from 'rsuite'
+import ApplyButton from './ApplyButton'
 
 const ScholarshipInformation = () => {
     const handleApply = () => {
@@ -29,7 +30,7 @@ const ScholarshipInformation = () => {
                                     <p className='font-bold text-lg text-orange-700'>Beneficiaries must be between age 6 and 25</p>
                                 </div>
                                 <div className='flex justify-center mt-4 mb-8'>
-                                    <button onClick={handleApply} className='font-bold px-6 py-4 rounded-md hover:bg-green-900 bg-green-700 text-white text-lg'>Apply Now!</button>
+                                    <ApplyButton handleApply={handleApply} />
                                 </div>
                             </div>
 
@@ -37,22 +38,22 @@ const ScholarshipInformation = () => {
                     </div>
                     <div>
                     </div>
-                    <div className='flex text-center w-full lg:w-3/5 min-h-96 p-6 justify-center bg-sky-800 rounded-md m-2
+                    <div className='flex text-center w-full lg:w-3/5 min-h-96 p-6 justify-center bg-blue-800 rounded-md m-2
                     '>
-                        <div className='leading-7'>
-                            <h6 className='text-white text-lg text-center'>Mode of application</h6>
+                        <div className='leading-8'>
+                            <h6 className='text-white text-lg text-center border-b border-b-gray-400 mb-2 pb-2'>Mode of application</h6>
                             <ul className='text-white list-decimal list-inside text-left'>
-                                <li className='text-base md:text-lg'>
+                                <li className='text-base md:text-lg mb-5'>
                                     Would-be beneficiaries for Primary, Secondary and Technical Colleges would be determined in collaboration with the State Ministry of Education Science and Technology using the Cumulative Promotion Examination Result obtainable from the OGSERA Platform
                                 </li>
-                                <li className='text-base md:text-lg'>
+                                <li className='text-base md:text-lg mb-5'>
                                     Beneficiaries for Tertiary Education level would be required to first complete an Online Application Form downloadable through a designated online portal.
                                 </li>
-                                <li className='text-base md:text-lg'>Application Forms for Primary, Secondary and Technical College must be endorsed by Parents/Guardian or School Head teacher/Principal for Public
+                                <li className='text-base md:text-lg mb-5'>Application Forms for Primary, Secondary and Technical College must be endorsed by Parents/Guardian or School Head teacher/Principal for Public
                                 </li>
-                                <li className='text-base md:text-lg'>Application for Tertiary level applicants must be submitted with evidence of Local Government Origin, JAMB Admission Details.
+                                <li className='text-base md:text-lg mb-5'>Application for Tertiary level applicants must be submitted with evidence of Local Government Origin, JAMB Admission Details.
                                 </li>
-                                <li className='text-base md:text-lg'>The applications are then collated for review after the set deadline.
+                                <li className='text-base md:text-lg mb-5'>The applications are then collated for review after the set deadline.
                                 </li>
                             </ul>
                         </div>

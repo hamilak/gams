@@ -6,7 +6,7 @@ const Footer = () => {
         window.location.href = import.meta.env.VITE_APP_URL
     }
     return (
-        <div className='flex gap-10 h-30 bg-blue-900 p-10'>
+        <div className='flex gap-10 h-30 bg-blue-800 p-10'>
             <div>
                 <div className='flex justify-center'>
                     <img src={Logo} alt="Logo" width={100} height={100} />
