@@ -19,7 +19,7 @@ const ScholarshipInformation = () => {
                             <div>
                                 <div className='flex items-center'>
                                     <img width="100" height="100" src="https://img.icons8.com/clouds/100/important-time.png" alt="important-time" />
-                                    <p className='text-lg text-red-600 font-bold'>Deadline: October 7, 2024</p>
+                                    <p className='text-lg text-red-600 font-bold'>Deadline: September 27, 2024</p>
                                 </div>
                                 <div className='flex items-center'>
                                     <img width="100" height="100" src="https://img.icons8.com/clouds/100/checked--v1.png" alt="checked--v1" />

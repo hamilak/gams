@@ -33,7 +33,7 @@ const MainInformation = () => {
                             <button onClick={handleApply} className='hover:bg-blue-900 bg-blue-600 p-3 text-white rounded-md font-bold'>Apply Now!</button>
                         </div>
                         <div className=' mt-4'>
-                            <p className='text-white font-bold'>Deadline for application: October 7, 2024</p>
+                            <p className='text-white font-bold'>Deadline for application: September 27, 2024</p>
                         </div>
                     </div>
                 </div>
