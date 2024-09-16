@@ -43,17 +43,17 @@ const ScholarshipInformation = () => {
                         <div className='leading-8'>
                             <h6 className='text-white text-lg text-center border-b border-b-gray-400 mb-2 pb-2'>Mode of application</h6>
                             <ul className='text-white list-decimal list-inside text-left'>
-                                <li className='text-base md:text-lg mb-5'>
+                                <li className='text-base md:text-lg mb-4'>
                                     Would-be beneficiaries for Primary, Secondary and Technical Colleges would be determined in collaboration with the State Ministry of Education Science and Technology using the Cumulative Promotion Examination Result obtainable from the OGSERA Platform
                                 </li>
-                                <li className='text-base md:text-lg mb-5'>
+                                <li className='text-base md:text-lg mb-4'>
                                     Beneficiaries for Tertiary Education level would be required to first complete an Online Application Form downloadable through a designated online portal.
                                 </li>
-                                <li className='text-base md:text-lg mb-5'>Application Forms for Primary, Secondary and Technical College must be endorsed by Parents/Guardian or School Head teacher/Principal for Public
+                                <li className='text-base md:text-lg mb-4'>Application Forms for Primary, Secondary and Technical College must be endorsed by Parents/Guardian or School Head teacher/Principal for Public
                                 </li>
-                                <li className='text-base md:text-lg mb-5'>Application for Tertiary level applicants must be submitted with evidence of Local Government Origin, JAMB Admission Details.
+                                <li className='text-base md:text-lg mb-4'>Application for Tertiary level applicants must be submitted with evidence of Local Government Origin, JAMB Admission Details.
                                 </li>
-                                <li className='text-base md:text-lg mb-5'>The applications are then collated for review after the set deadline.
+                                <li className='text-base md:text-lg mb-4'>The applications are then collated for review after the set deadline.
                                 </li>
                             </ul>
                         </div>
