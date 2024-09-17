@@ -11,7 +11,7 @@ const About = () => {
     return (
         <div className='my-20'>
             <div>
-                <Divider className='text-3xl md:text-5xl font-bold'>About the Program</Divider>
+                <Divider className='text-2xl md:text-5xl font-bold'>About the Program</Divider>
             </div>
             <div className='mt-20'>
                 <div className='lg:flex justify-between gap-20 items-center m-10'>
