@@ -1,5 +1,5 @@
 import React from 'react';
-import BackgroundImage from '../assets/image.jpg';
+import BackgroundImage from '../assets/Logo.png';
 
 const MainInformation = () => {
     const handleLearnMoreClick = () => {
@@ -16,14 +16,14 @@ const MainInformation = () => {
     return (
         <div>
             <div
-                className="relative bg-cover bg-top bg-no-repeat flex items-center sm:bg-none bg-gray-800"
+                className="relative bg-contain bg-center bg-no-repeat flex items-center sm:bg-none bg-blue-950"
                 style={{
                     backgroundImage: `url(${BackgroundImage})`,
                     maxWidth: '1680px',
                     height: '700px',
                 }}
             >
-                <div className="absolute inset-0 bg-black opacity-70"></div>
+                <div className="absolute inset-0 bg-black opacity-90"></div>
                 <div className='relative px-10 w-full flex justify-center'>
                     <div className='w-full md:w-1/2 text-center'>
                         <h3 className="text-base md:text-5xl text-white font-bold uppercase">Gbemiga Abiodun Memorial Scholarship</h3>
