@@ -23,7 +23,7 @@ const MainInformation = () => {
                     height: '700px',
                 }}
             >
-                <div className="absolute inset-0 bg-black opacity-90"></div>
+                <div className="absolute inset-0 bg-black opacity-70"></div>
                 <div className='relative px-10 w-full flex justify-center'>
                     <div className='w-full md:w-1/2 text-center'>
                         <h3 className="text-base md:text-5xl text-white font-bold uppercase">Gbemiga Abiodun Memorial Scholarship</h3>
