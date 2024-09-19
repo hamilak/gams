@@ -12,7 +12,7 @@ const Footer = () => {
                     <img src={Logo} alt="Logo" width={100} height={100} />
                 </div>
                     
-                <h5 className='text-white'>Gbemiga Abiodun Memorial Scholarship</h5>
+                <h5 className='text-white'>Gbemiga Abiodun Education Program</h5>
             </div>
             <div>
                 <ul className='text-white space-y-4'>
